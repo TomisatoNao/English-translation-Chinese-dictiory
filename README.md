@@ -1,2 +1,24 @@
 # English-translation-Chinese-dictiory
-A final class assignment
+
+## 功能：  
+
+* 基于插入中英文的增加  
+* 基于英文的查找  
+* 基于英文的删除  
+* 将英文和中文写入到txt文件中  
+* 将txt文件读入到所构造的数据结构中  
+
+
+## 所用到的数据结构：  
+
+* AVL树  
+* 红黑树  
+* 哈希表  
+
+## 所用到的语言：  
+
+* C++  
+
+## 增强方案：  
+
+* 用QT进行GUI的编写
