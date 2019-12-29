@@ -5,7 +5,6 @@
 #include <cstdlib>
 #include "redblacktree.h"
 #include "MyStack.h"
-#include <QDebug>
 using namespace std;
 
 RedBlackTree::RedBlackTree() {
