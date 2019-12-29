@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1576926401 source:c:\users\yangr\desktop\code\pjwork\main.cpp
+	"RedBlackTree.h"
+	"BinarySearchTree.h"
+	"BasicSearchTree.h"
+	<iostream>
+	<string>
+
+1576638557 c:\users\yangr\desktop\code\pjwork\include\redblacktree.h
+	<string>
+	"BasicSearchTree.h"
+
+1576929753 source:c:\users\yangr\desktop\code\pjwork\src\redblacktree.cpp
+	<queue>
+	<string>
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"RedBlackTree.h"
+	"MyStack.h"
+
+1576756693 source:c:\users\yangr\desktop\code\pjwork\src\binarysearchtree.cpp
+	"BinarySearchTree.h"
+	<iostream>
+	"MyStack.h"
+	<fstream>
+	<cstdlib>
+	<string>
+
+1576650871 c:\users\yangr\desktop\code\pjwork\include\binarysearchtree.h
+	<string>
+	"BasicSearchTree.h"
+
+1576644593 source:c:\users\yangr\desktop\code\pjwork\src\basicsearchtree.cpp
+	"BasicSearchTree.h"
+	<iostream>
+
+1576938786 c:\users\yangr\desktop\code\pjwork\include\basicsearchtree.h
+	<string>
+
+1576751315 c:\users\yangr\desktop\code\pjwork\include\myqueue.h
+
+1576755159 c:\users\yangr\desktop\code\pjwork\include\mystack.h
+
