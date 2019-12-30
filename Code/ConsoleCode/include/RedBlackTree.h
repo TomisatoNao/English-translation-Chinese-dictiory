@@ -40,9 +40,7 @@ private:
 
     void DeleteOneChild(Node *p);    //删除节点
 
-
     void DeleteCase(Node *p);     //对删除节点进行分析，维护红黑树的性质
-
 
 public:
     RedBlackTree();             //构造函数
@@ -53,9 +51,7 @@ public:
 
     void Delete(string englishValue);    //删除操作
 
-
     void Find(string englishValue);       //查找操作
-
 
 private:
 
