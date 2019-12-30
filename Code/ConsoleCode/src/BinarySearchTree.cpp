@@ -136,7 +136,6 @@ void BinarySearchTree::Find(string englishValue) {
 void BinarySearchTree::Delete(string englishValue) {
 
     if (root == nullptr) {
-        cout << "字典为空" << endl;
         return;
     }
 
@@ -150,8 +149,7 @@ void BinarySearchTree::Delete(string englishValue) {
         } else {
             if (current->rightTree == nullptr) {
                 if (current == root) {
-                    root = root->leftTree;
-                    root->parent = nullptr;
+                    root = current->leftTree;
                 } else {
                     if (current == current->parent->leftTree) {
                         current->parent->leftTree = current->leftTree;
@@ -159,17 +157,27 @@ void BinarySearchTree::Delete(string englishValue) {
                         current->parent->rightTree = current->leftTree;
                     }
                 }
+
+                if (current->leftTree!=nullptr) {
+                    current->leftTree->parent = current->parent;
+                }
                 delete current;
                 return;
-            }
-            BinarySearchTreeNode* smallest = getSmallestChildren(current->rightTree); //smallest最少也是改节点的右子树
-            current->englishValue = smallest->englishValue;
-            current->chineseValue = smallest->chineseValue;
-
-            if (smallest == smallest->parent->leftTree) { //smallest的左子树一定是空
-                smallest->parent->leftTree = smallest->rightTree;
             } else {
-                smallest->parent->rightTree = smallest->rightTree;
+                BinarySearchTreeNode* smallest = getSmallestChildren(current->rightTree); //smallest最少也是改节点的右子树
+                current->englishValue = smallest->englishValue;
+                current->chineseValue = smallest->chineseValue;
+
+                if (smallest == smallest->parent->leftTree) { //smallest的左子树一定是空
+                    smallest->parent->leftTree = smallest->rightTree;
+                } else {
+                    smallest->parent->rightTree = smallest->rightTree;
+                }
+                if(smallest->rightTree!=nullptr) {
+                    smallest->rightTree->parent=smallest->parent;  //更新父节点
+                }
+                delete smallest;
+                return;
             }
         }
     }
