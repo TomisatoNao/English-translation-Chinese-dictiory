@@ -17,7 +17,7 @@ BinarySearchTree::BinarySearchTree() {
 
     myFile.open(fileName);
 
-    cout << "ÕýÔÚ³õÊ¼»¯×Öµä£¬ÇëÉÔµÈ..." << endl;
+    cout << "æ­£åœ¨åˆå§‹åŒ–å­—å…¸ï¼Œè¯·ç¨ç­‰..." << endl;
 
     while (myFile.is_open()) {
         while (!myFile.eof()) {
@@ -48,22 +48,24 @@ BinarySearchTree::~BinarySearchTree()
     BinarySearchTreeNode* p = root;
     BinarySearchTreeNode* temp;
 
-    while(!ms.Empty() || p != nullptr) {           //Í¨¹ýÖÐÐò±éÀú·ÇµÝ¹éÊµÏÖ½«×ÖµäÐ´»Øµ½ÎÄ¼þÖÐ
+    while(!ms.Empty() || p != nullptr) {           //é€šè¿‡ä¸­åºéåŽ†éžé€’å½’å®žçŽ°å°†å­—å…¸å†™å›žåˆ°æ–‡ä»¶ä¸­
         while(p != nullptr) {
             ms.Push(p);
             p = p->leftTree;
         }
         if(!ms.Empty()) {
             p = ms.Top();
-            insertEnglishValue = p->englishValue;
-            insertChineseValue = p->chineseValue;
-            if (insertEnglishValue[0]!=fileName[11]) {
-                myFile.close();
-                fileName[11]=insertEnglishValue[0];
-                myFile.open(fileName);
-                myFile << insertEnglishValue << " " << insertChineseValue << endl;
-            } else {
-                myFile << insertEnglishValue << " " << insertChineseValue << endl;
+            if (myFile.is_open()) {
+                 insertEnglishValue = p->englishValue;
+                insertChineseValue = p->chineseValue;
+                if (insertEnglishValue[0]!=fileName[11]) {
+                    myFile.close();
+                    fileName[11]=insertEnglishValue[0];
+                    myFile.open(fileName);
+                    myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                } else {
+                    myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                }
             }
             ms.Pop();
             temp = p;
@@ -71,8 +73,9 @@ BinarySearchTree::~BinarySearchTree()
             delete temp;
         }
     }
-
-    myFile.close();
+    if (myFile.is_open()) {
+          myFile.close();
+    }
 }
 
 void BinarySearchTree::Insert(string englishValue, string chineseValue) {
@@ -123,9 +126,9 @@ void BinarySearchTree::Find(string englishValue) {
         }
     }
 
-    cout << "Ã»ÕÒµ½ÄúÒª²éÕÒµÄÓ¢ÎÄµ¥´Ê" << endl;
+    cout << "æ²¡æ‰¾åˆ°æ‚¨è¦æŸ¥æ‰¾çš„è‹±æ–‡å•è¯" << endl;
     string chineseValue;
-    cout << "ÇëÊäÈëÄúÒª²éÕÒµÄÓ¢ÎÄµ¥´ÊµÄ´ÊÐÔ¼°ÆäººÓïÒâË¼:" << endl;
+    cout << "è¯·è¾“å…¥æ‚¨è¦æŸ¥æ‰¾çš„è‹±æ–‡å•è¯çš„è¯æ€§åŠå…¶æ±‰è¯­æ„æ€:" << endl;
     cin >> chineseValue;
     Insert(englishValue, chineseValue);
 }
@@ -133,7 +136,7 @@ void BinarySearchTree::Find(string englishValue) {
 void BinarySearchTree::Delete(string englishValue) {
 
     if (root == nullptr) {
-        cout << "×ÖµäÎª¿Õ" << endl;
+        cout << "å­—å…¸ä¸ºç©º" << endl;
         return;
     }
 
@@ -159,11 +162,11 @@ void BinarySearchTree::Delete(string englishValue) {
                 delete current;
                 return;
             }
-            BinarySearchTreeNode* smallest = getSmallestChildren(current->rightTree); //smallest×îÉÙÒ²ÊÇ¸Ä½ÚµãµÄÓÒ×ÓÊ÷
+            BinarySearchTreeNode* smallest = getSmallestChildren(current->rightTree); //smallestæœ€å°‘ä¹Ÿæ˜¯æ”¹èŠ‚ç‚¹çš„å³å­æ ‘
             current->englishValue = smallest->englishValue;
             current->chineseValue = smallest->chineseValue;
 
-            if (smallest == smallest->parent->leftTree) { //smallestµÄ×ó×ÓÊ÷Ò»¶¨ÊÇ¿Õ
+            if (smallest == smallest->parent->leftTree) { //smallestçš„å·¦å­æ ‘ä¸€å®šæ˜¯ç©º
                 smallest->parent->leftTree = smallest->rightTree;
             } else {
                 smallest->parent->rightTree = smallest->rightTree;
