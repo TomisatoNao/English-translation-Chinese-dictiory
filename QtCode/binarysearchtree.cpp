@@ -128,7 +128,6 @@ QString BinarySearchTree::Find(string englishValue) {
 }
 
 void BinarySearchTree::Delete(string englishValue) {
-
     if (root == nullptr) {
         return;
     }
@@ -152,7 +151,7 @@ void BinarySearchTree::Delete(string englishValue) {
                     }
                 }
                 
-                if (current->leftTree!=nullpter) {
+                if (current->leftTree!=nullptr) {
                     current->leftTree->parent = current->parent;
                 }
                 delete current;
