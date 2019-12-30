@@ -1,5 +1,4 @@
 #include "binarysearchtree.h"
-#include <iostream>
 #include "MyStack.h"
 #include <fstream>
 #include <string>
