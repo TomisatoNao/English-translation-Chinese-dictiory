@@ -1,8 +1,6 @@
-#include <queue>
 #include <string>
 #include <iostream>
 #include <fstream>
-#include <cstdlib>
 #include "redblacktree.h"
 #include "MyStack.h"
 using namespace std;
@@ -359,23 +357,6 @@ void RedBlackTree::RotateLeft(Node* p) {
         } else {
             gp->rightTree = p;
         }
-    }
-}
-
-void RedBlackTree::Floororder() {
-    queue<Node*> q;
-    if (root == nullptr) {
-        return;
-    }
-    q.push(root);
-    while(!q.empty()) {
-        if (q.front()->leftTree != nullptr && q.front()->leftTree != NIL) {
-            q.push(q.front()->leftTree);
-        }
-        if (q.front()->rightTree != nullptr && q.front()->rightTree != NIL) {
-            q.push(q.front()->rightTree);
-        }
-        q.pop();
     }
 }
 
