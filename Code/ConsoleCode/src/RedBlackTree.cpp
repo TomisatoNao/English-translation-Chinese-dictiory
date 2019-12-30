@@ -359,22 +359,6 @@ void RedBlackTree::RotateLeft(Node* p) {
     }
 }
 
-
-
-void RedBlackTree::InOrder() {
-    InOrder(root);
-}
-
-void RedBlackTree::InOrder(Node *p) {
-    if (p == nullptr || p == NIL) {
-        return;
-    } else {
-        InOrder(p->leftTree);
-        cout << p->englishValue << " " << p->chineseValue << endl;
-        InOrder(p->rightTree);
-    }
-}
-
 Node* Node::grandparent() {
     if(parent == nullptr) {
         return nullptr;
