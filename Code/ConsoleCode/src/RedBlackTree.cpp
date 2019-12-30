@@ -52,17 +52,15 @@ RedBlackTree::~RedBlackTree() {
         }
         if(!ms.Empty()) {
             p = ms.Top();
-            insertEnglishValue = p->englishValue;
-            insertChineseValue = p->chineseValue;
-            if (insertEnglishValue[0]!=fileName[11]) {
-                myFile.close();
-                fileName[11]=insertEnglishValue[0];
-                myFile.open(fileName);
-                if (myFile.is_open()) {
+            if (myFile.is_open) {
+                insertEnglishValue = p->englishValue;
+                insertChineseValue = p->chineseValue;
+                if (insertEnglishValue[0]!=fileName[11]) {
+                    myFile.close();
+                    fileName[11]=insertEnglishValue[0];
+                    myFile.open(fileName);
                     myFile << insertEnglishValue << " " << insertChineseValue << endl;
-                }
-            } else {
-                if (myFile.is_open()) {
+                } else {
                     myFile << insertEnglishValue << " " << insertChineseValue << endl;
                 }
             }
