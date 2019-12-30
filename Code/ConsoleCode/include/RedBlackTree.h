@@ -15,58 +15,53 @@ struct Node {
 
     Node():englishValue(""), chineseValue(""), color(RED), parent(nullptr), leftTree(nullptr), rightTree(nullptr) {}
 
-    Node* grandparent(); //»ñÈ¡×æ¸¸½Úµã
+    Node* grandparent(); //è·å–ç¥–çˆ¶èŠ‚ç‚¹
 
-    Node* uncle();   //»ñÈ¡ÊåÊå½Úµã
+    Node* uncle();   //è·å–å”å”èŠ‚ç‚¹
 
-    Node* sibling();  //»ñÈ¡ĞÖµÜ½Úµã
+    Node* sibling();  //è·å–å…„å¼ŸèŠ‚ç‚¹
 };
 
 class RedBlackTree : public BasicSearchTree{
 
 private:
 
-    void RotateLeft(Node* p);   //×óĞı×ª
+    void RotateLeft(Node* p);   //å·¦æ—‹è½¬
 
-    void RotateRight(Node* p);  //ÓÒĞı×ª
+    void RotateRight(Node* p);  //å³æ—‹è½¬
 
-    void Insert(Node *p, string englishValue, string chineseValue); //²åÈë²Ù×÷
+    void Insert(Node *p, string englishValue, string chineseValue); //æ’å…¥æ“ä½œ
 
-    void InsertCase(Node *p);    //¶Ô²åÈëÇé¿ö½øĞĞ·ÖÎö£¬Î¬»¤ºìºÚÊ÷µÄĞÔÖÊ
+    void InsertCase(Node *p);    //å¯¹æ’å…¥æƒ…å†µè¿›è¡Œåˆ†æï¼Œç»´æŠ¤çº¢é»‘æ ‘çš„æ€§è´¨
 
-    Node* GetSmallestChild(Node* p);   //»ñÈ¡×îĞ¡ºó±²½Úµã
+    Node* GetSmallestChild(Node* p);   //è·å–æœ€å°åè¾ˆèŠ‚ç‚¹
 
-    bool Delete(Node* p, string englishValue);  //É¾³ı½Úµã
+    bool Delete(Node* p, string englishValue);  //åˆ é™¤èŠ‚ç‚¹
 
-    void DeleteOneChild(Node *p);    //É¾³ı½Úµã
+    void DeleteOneChild(Node *p);    //åˆ é™¤èŠ‚ç‚¹
 
 
-    void DeleteCase(Node *p);     //¶ÔÉ¾³ı½Úµã½øĞĞ·ÖÎö£¬Î¬»¤ºìºÚÊ÷µÄĞÔÖÊ
+    void DeleteCase(Node *p);     //å¯¹åˆ é™¤èŠ‚ç‚¹è¿›è¡Œåˆ†æï¼Œç»´æŠ¤çº¢é»‘æ ‘çš„æ€§è´¨
 
-    void DeStruct(Node *p);     //Îö¹¹º¯Êıµ÷ÓÃ
-
-    void InOrder(Node *p);      //ÖĞĞò±éÀú
 
 public:
-    RedBlackTree();             //¹¹Ôìº¯Êı
+    RedBlackTree();             //æ„é€ å‡½æ•°
 
-    ~RedBlackTree();          //Îö¹¹º¯Êı
+    ~RedBlackTree();          //ææ„å‡½æ•°
 
-    void Insert(string englishValue, string chineseValue);   //²åÈë²Ù×÷
+    void Insert(string englishValue, string chineseValue);   //æ’å…¥æ“ä½œ
 
-    void Delete(string englishValue);    //É¾³ı²Ù×÷
+    void Delete(string englishValue);    //åˆ é™¤æ“ä½œ
 
-    void Floororder();                    //²ãĞò±éÀú
 
-    void Find(string englishValue);       //²éÕÒ²Ù×÷
+    void Find(string englishValue);       //æŸ¥æ‰¾æ“ä½œ
 
-    void InOrder();                 //ÖĞĞò±éÀú£¬×ÖµäĞò½á¹û
 
 private:
 
-    Node* root;                    //¸ù½Úµã
+    Node* root;                    //æ ¹èŠ‚ç‚¹
 
-    Node* NIL;                     //±ê¼ÇÒ¶½Úµã
+    Node* NIL;                     //æ ‡è®°å¶èŠ‚ç‚¹
 };
 
 
