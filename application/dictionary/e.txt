@@ -133,7 +133,6 @@ employer n.雇主
 employment n.职业，就业
 emptiness n.空虚，空白
 empty adj.空的，空虚的
-en route adv.在途中
 enable v.使能够，使可能
 enchant v.迷住，陶醉
 encircle v.环绕，包围
@@ -165,7 +164,8 @@ engine n.发动机，火车头
 engineer n.工程师
 engineering n.工程
 england n.英格兰，英国
-englishman n.,adj.英国的，英语
+english n.,adj.英国的，英语
+englishman n.英国人
 engrave v.刻上，牢记
 engraving adj.雕刻
 engulf v.吞没
@@ -185,6 +185,7 @@ enquiry v.询问
 enrich v.使富裕
 enroll v.登记，招收
 enrolment n.招收
+enroute adv.在途中
 ensure v.保证，担保，保护
 entail v.遗留给，引起
 enter v.进入，加入

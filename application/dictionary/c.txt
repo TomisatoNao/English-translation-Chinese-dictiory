@@ -200,7 +200,9 @@ childlike adj.孩子似的，天真的
 chill n.寒意 v.冷却
 chilly adj.凉的，冷淡的
 chimney n.烟囱
-china n.下巴，下颊
+chin n.下巴，下颊
+china n.中国
+chinese adj.,n.中国的
 chip n.片，屑，缺口
 chocolate n.巧克力
 choice n.选择，选中的人或物
