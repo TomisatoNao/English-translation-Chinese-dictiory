@@ -135,7 +135,7 @@ void RedBlackTree::InsertCase(Node *p) {
         p->color = BLACK;
         return;
     }
-    if (p->parent == BLACK) {
+    if (p->parent->color == BLACK) {
         return;
     }
     if (p->parent->color == RED && p->uncle()->color == RED) {
