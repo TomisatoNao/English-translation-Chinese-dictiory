@@ -64,14 +64,9 @@ RedBlackTree::~RedBlackTree() {
                     myFile.close();
                     fileName[11]=insertEnglishValue[0];
                     myFile.open(fileName);
-                    if (myFile.is_open()) {
-                        myFile << insertEnglishValue << " " << insertChineseValue << endl;
-                    }
-
+                    myFile << insertEnglishValue << " " << insertChineseValue << endl;
                 } else {
-                    if (myFile.is_open()) {
-                        myFile << insertEnglishValue << " " << insertChineseValue << endl;
-                    }
+                    myFile << insertEnglishValue << " " << insertChineseValue << endl;
                 }
             }
             ms.Pop();
