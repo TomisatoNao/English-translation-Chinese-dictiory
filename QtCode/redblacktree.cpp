@@ -1,5 +1,4 @@
 #include <string>
-#include <iostream>
 #include <fstream>
 #include "redblacktree.h"
 #include "MyStack.h"
@@ -352,19 +351,6 @@ void RedBlackTree::RotateLeft(Node* p) {
         } else {
             gp->rightTree = p;
         }
-    }
-}
-
-void RedBlackTree::InOrder() {
-    InOrder(root);
-}
-
-void RedBlackTree::InOrder(Node *p) {
-    if (p == nullptr || p == NIL) {
-        return;
-    } else {
-        InOrder(p->leftTree);
-        InOrder(p->rightTree);
     }
 }
 
