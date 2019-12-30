@@ -45,7 +45,6 @@ private:
 
     void DeStruct(Node *p);     //析构函数调用
 
-    void InOrder(Node *p);      //中序遍历
 
 public:
     RedBlackTree();             //构造函数
@@ -60,7 +59,6 @@ public:
 
     QString Find(string englishValue) override;       //查找操作
 
-    void InOrder();                 //中序遍历，字典序结果
 
 private:
 
