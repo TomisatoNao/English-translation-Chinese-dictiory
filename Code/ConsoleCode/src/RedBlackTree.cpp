@@ -1,4 +1,3 @@
-#include <queue>
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -17,7 +16,7 @@ RedBlackTree::RedBlackTree() {
     string insertEnglishValue;
     string insertChineseValue;
 
-    cout << "ÕýÔÚ³õÊ¼»¯×Öµä£¬ÇëÉÔµÈ..." << endl;
+    cout << "æ­£åœ¨åˆå§‹åŒ–å­—å…¸ï¼Œè¯·ç¨ç­‰..." << endl;
 
     myFile.open(fileName);
     while(myFile.is_open()) {
@@ -46,7 +45,7 @@ RedBlackTree::~RedBlackTree() {
     Node* p  = root;
     Node* temp;
 
-    while(!ms.Empty() || p != NIL) {         //Í¨¹ýÖÐÐò±éÀúµÄ·ÇµÝ¹éÊµÏÖ½«×ÖµäÐ´»Øµ½×ÖµäÖÐ
+    while(!ms.Empty() || p != NIL) {         //é€šè¿‡ä¸­åºéåŽ†çš„éžé€’å½’å®žçŽ°å°†å­—å…¸å†™å›žåˆ°å­—å…¸ä¸­
         while(p != NIL) {
             ms.Push(p);
             p = p->leftTree;
@@ -59,9 +58,13 @@ RedBlackTree::~RedBlackTree() {
                 myFile.close();
                 fileName[11]=insertEnglishValue[0];
                 myFile.open(fileName);
-                myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                if (myFile.is_open()) {
+                    myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                }
             } else {
-                myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                if (myFile.is_open()) {
+                    myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                }
             }
             ms.Pop();
             temp = p;
@@ -69,8 +72,10 @@ RedBlackTree::~RedBlackTree() {
             delete temp;
         }
     }
-
-    myFile.close();
+    
+    if (myFile.is_open()) {
+        myFile.close();
+    }
     delete NIL;
 }
 
@@ -162,7 +167,7 @@ void RedBlackTree::InsertCase(Node *p) {
 
 void RedBlackTree::Delete(string englishValue) {
     if (root == nullptr) {
-        cout << "Ã»ÕÒµ½ÄúÒªÉ¾³ýµÄµ¥´Ê" << endl;
+        cout << "æ²¡æ‰¾åˆ°æ‚¨è¦åˆ é™¤çš„å•è¯" << endl;
         return;
     }
     Delete(root, englishValue);
@@ -171,13 +176,13 @@ void RedBlackTree::Delete(string englishValue) {
 bool RedBlackTree::Delete(Node* p, string englishValue) {
     if(p->englishValue > englishValue) {
         if (p->leftTree == NIL) {
-            cout << "Ã»ÕÒµ½ÄúÒªÉ¾³ýµÄµ¥´Ê" << endl;
+            cout << "æ²¡æ‰¾åˆ°æ‚¨è¦åˆ é™¤çš„å•è¯" << endl;
             return false;
         }
         return Delete(p->leftTree, englishValue);
     } else if (p->englishValue < englishValue) {
         if (p->rightTree == NIL) {
-            cout << "Ã»ÕÒµ½ÄúÒªÉ¾³ýµÄµ¥´Ê" << endl;
+            cout << "æ²¡æ‰¾åˆ°æ‚¨è¦åˆ é™¤çš„å•è¯" << endl;
             return false;
         }
         return Delete(p->rightTree, englishValue);
@@ -189,10 +194,10 @@ bool RedBlackTree::Delete(Node* p, string englishValue) {
         Node* child = GetSmallestChild(p->rightTree);
         swap(p->englishValue, child->englishValue);
         DeleteOneChild(child);
-        cout << "É¾³ý³É¹¦" << endl;
+        cout << "åˆ é™¤æˆåŠŸ" << endl;
         return true;
     } else {
-        cout << "Ã»ÕÒµ½ÄúÒªÉ¾³ýµÄµ¥´Ê" << endl;
+        cout << "æ²¡æ‰¾åˆ°æ‚¨è¦åˆ é™¤çš„å•è¯" << endl;
         return false;
     }
 }
@@ -301,7 +306,7 @@ void RedBlackTree::Find(string englishValue) {
         }
     }
     string chineseValue;
-    cout << "ÇëÊäÈëÄúÒª²éÕÒµÄÓ¢ÎÄµ¥´ÊµÄ´ÊÐÔ¼°ÆäººÓïÒâË¼:" << endl;
+    cout << "è¯·è¾“å…¥æ‚¨è¦æŸ¥æ‰¾çš„è‹±æ–‡å•è¯çš„è¯æ€§åŠå…¶æ±‰è¯­æ„æ€:" << endl;
     cin >> chineseValue;
     Insert(englishValue, chineseValue);
 }
@@ -356,24 +361,7 @@ void RedBlackTree::RotateLeft(Node* p) {
     }
 }
 
-void RedBlackTree::Floororder() {
-    queue<Node*> q;
-    if (root == nullptr) {
-        return;
-    }
-    q.push(root);
-    while(!q.empty()) {
-        cout << q.front()->englishValue << " " << q.front()->chineseValue << endl;
-        if (q.front()->leftTree != nullptr && q.front()->leftTree != NIL) {
-            q.push(q.front()->leftTree);
-        }
-        if (q.front()->rightTree != nullptr && q.front()->rightTree != NIL) {
-            q.push(q.front()->rightTree);
-        }
-        q.pop();
-    }
-    cout << endl;
-}
+
 
 void RedBlackTree::InOrder() {
     InOrder(root);
