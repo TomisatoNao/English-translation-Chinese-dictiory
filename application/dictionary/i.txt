@@ -1,9 +1,7 @@
 i .我
-i.e. (缩)即，也就是
-iIrish n.,adj.爱尔兰人(的)
 ice n.冰，冰块
-ice-bound adj.冰封的
 ice-cream n.冰淇淋
+ice-bound adj.冰封的
 iceland n.冰岛
 icy adj.冰冷的，结了冰的
 idea n.思想，主意，打算
@@ -20,6 +18,7 @@ idiot n.傻子，白痴
 idle adj.空闲的，懒的
 idleness n.闲散，无所事事
 idol n.偶像，被崇拜的人
+i.e. (缩)即，也就是
 if conj.如果，虽然,是否
 ignite v.点燃
 ignorance n.无知，不知道
@@ -162,8 +161,8 @@ inducement n.诱导，动机
 induction n.感应，归纳
 indulge v.放纵，放任，纵容
 industrial adj.工业的
-industrialization n.工业化
 industrialize v.使工业化
+industrialization n.工业化
 industrialized adj.工业化的
 industrious adj.勤劳的，勤奋的
 industry n.工业，产业，勤奋
@@ -202,6 +201,7 @@ infrequent adj.不经常的
 infringe v.侵权
 infringement n.侵权
 ingenious adj.灵巧的，精巧的
+ingenious adj.独创的，机智的
 ingenuity n.灵巧，机灵，巧妙
 inhabit v.居住，栖身
 inhabitant n.居民
@@ -345,6 +345,7 @@ involvement n.卷入，涉足
 inward adj.里面的，内心的
 inwards adv.向内的
 ireland n.爱尔兰
+iIrish n.,adj.爱尔兰人(的)
 iron n.铁，熨斗 v.熨平
 ironical adj.反讽的，讽刺的
 irony n.反讽，讽刺

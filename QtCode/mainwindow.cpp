@@ -32,12 +32,10 @@ MainWindow::MainWindow(QWidget *parent)
         if (QString::compare(ui->englishvalue->text(), "")==0) {
             QMessageBox::warning(this,"错误","文本框为空",QMessageBox::Ok);
         } else {
-            if (QString::compare(ui->chinesevalue->text(), "")==0) {
+            if (!b->Delete(ui->englishvalue->text().toStdString())) {
                 QMessageBox::warning(this,"错误","删除单词不存在",QMessageBox::Ok);
-            } else {
-                b->Delete(ui->englishvalue->text().toStdString());
-                ui->chinesevalue->setText("");
             }
+            ui->chinesevalue->setText("");
         }
     });
 

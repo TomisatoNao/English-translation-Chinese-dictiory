@@ -1,4 +1,3 @@
-c/o v.(缩)请转交...
 cab n.出租汽车
 cabbage n.卷心菜；圆白菜
 cabin n.小屋，船舱
@@ -95,8 +94,8 @@ casual adj.偶然的，随便的
 casualty n.伤亡
 cat n.猫
 catalog n.(商品)目录
-catalyst n.催化剂
 catastrophe n.灾难
+catalyst n.催化剂
 catch v.捕获，染病 n.捉
 category n.种类，范畴
 cater v.提供
@@ -122,10 +121,10 @@ cemetery n.墓场
 censor v.审查
 censorship n.审查
 cent n.分币
-center n.中心 v.集中
 centigrade adj.摄氏的
 centimeter n.厘米
 central adj.中心的，中央的
+center n.中心 v.集中
 century n.世纪
 cereal n.谷物
 ceremonial adj.仪式的
@@ -202,6 +201,7 @@ chilly adj.凉的，冷淡的
 chimney n.烟囱
 chin n.下巴，下颊
 china n.中国
+china n.瓷器，陶瓷
 chinese adj.,n.中国的
 chip n.片，屑，缺口
 chocolate n.巧克力
@@ -220,8 +220,8 @@ cigar n.雪茄
 cigarette n.卷烟
 cinema n.电影院
 circle n.圆，果 v.画圈于
-circuit n.巡回，电路
 circular adj.圆圈的
+circuit n.巡回，电路
 circulate v.循环，流通，流传
 circulation n.循环，销路，周转
 circumference n.周围，圆周
@@ -237,8 +237,8 @@ civilize v.使...文明，开化
 claim v.要求，索赔，声称
 clamp n.夹子 v.夹紧
 clap v.排手，鼓掌
-clarification n.澄清
 clarify v.弄清(问题)
+clarification n.澄清
 clash v.,n.碰撞，冲突
 clasp n.扣子 v.紧握(抱)
 class n.阶级，种类，班级
@@ -274,6 +274,7 @@ clock n.时钟
 clockwise adj.,adv.顺时针的
 close v.关闭，结束 n.终结
 closed adj.关闭的，停业的
+close down n.倒闭
 closely adv.紧密地，严密地
 closet n.壁橱
 cloth n.织物，布，衣料
@@ -288,6 +289,7 @@ clue n.线索
 clumsy adj.笨拙的，愚蠢的
 cluster n.群，串
 clutch v.,n.抓紧
+c/o v.(缩)请转交...
 coach n.客车，教练
 coal n.煤
 coarse adj.粗糙的，粗的
@@ -326,6 +328,7 @@ collision n.猛烈碰拉，冲突
 colonel n.上校
 colonial adj.殖民的，殖民地的
 colonist n.殖民者，移民
+colonist n.殖民主义
 colony n.殖民地
 color n.颜色，色彩，气色
 color-blind adj.色盲的
@@ -345,11 +348,11 @@ comfortable adj.舒适的，自在的
 comic adj.喜剧的，滑稽的
 command v.,n.命令，控制
 commander n.司令，指挥官
-commandment n.称赞
 commemorate n.纪念
 commemoration v.纪念
 commence v.开始
 commend v.称赞，推荐
+commandment n.称赞
 comment n.,v.评论
 commerce n.商业
 commercial adj.商业的，商务的
@@ -381,7 +384,6 @@ comparison n.比较
 compass n.指南针，圆规
 compatible adj.可兼容的，一致的
 compel v.强迫，逼迫
-compels v.强迫
 compensate v.赔偿，补偿，酬报
 compensation n.赔偿，补偿
 compete v.竞争，比赛
@@ -420,6 +422,7 @@ compress v.压缩
 compression n.压缩，凝缩
 comprise v.包括，由...组成
 compromise n.,v.妥协，和解
+compels v.强迫
 compulsory adj.强制的，必修的
 computation n.计算
 compute v.计算
@@ -575,8 +578,8 @@ contrast n.,v.对照，对比
 contribute v.捐献，贡献，投稿
 contribution n.贡献，捐献物
 control v.,n.控制，管理
-controversial adj.有争议的
 controversy n.论战，论争
+controversial adj.有争议的
 convenience n.方便，便利
 convenient adj.便利的，方便的
 convention n.大会，协定，惯例
@@ -630,8 +633,8 @@ corrupt adj.腐败的，腐化的
 corruption n.腐败，腐化
 cosmetics n.化妆品
 cosmic adj.宇宙的
-cosmopolitan n.大都市
 cosmos n.宇宙
+cosmopolitan n.大都市
 cost n.成本，费用 v.花费
 costly adj.昂贵的
 cottage n.村舍
@@ -645,9 +648,9 @@ count v.计算，数，认为
 countable adj.可计算的
 countenance n.容貌，支持
 counter n.柜台 adj.相反的
-counter-offer n.还价，还盘
 countermand v.撤回，取消
 countermeasure n.对策
+counter-offer n.还价，还盘
 counterpart n.同类的人或物
 countersign v.副署，会签
 countersignature n.副署，会签
@@ -691,8 +694,8 @@ creation n.创造，创造物
 creative adj.有创造力(性)的
 creature n.家伙，生物
 credit n.信誉，信用 v.相信
-creditworthiness n.商誉
 creditworthy adj.有信誉的
+creditworthiness n.商誉
 creek n.小川，小湾
 creep v.爬行，蔓延
 crew n.(飞机等的)全体人员

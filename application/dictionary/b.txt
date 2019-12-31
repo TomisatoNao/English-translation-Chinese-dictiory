@@ -1,5 +1,3 @@
-b.c. (缩)公元前
-b/l n.(缩)提单
 baby n.婴儿，年龄最小的人
 baby-sit v.(替人)看护小孩
 baby-sitter n.看护小孩的人
@@ -30,10 +28,10 @@ balance n.平衡，天平，余额
 balcony n.阳台
 bald adj.秃的
 ball n.球，球状物，舞会
-ball-point pen n.圆珠笔
 ballet n.芭蕾舞
 balloon n.气球
 ballooning n.热气球飞行运动
+ball-point pen n.圆珠笔
 ballroom n.舞厅
 bamboo n.竹
 bamboo-shoot n.竹笋
@@ -81,6 +79,7 @@ battery n.电池
 battle n.战斗，战役
 bay n.海湾，湾
 bazaar n.集市
+b.c. (缩)公元前
 be v.是，存在
 beach n.海滩，湖滨
 bead n.有孔小珠
@@ -175,6 +174,7 @@ bite n.,v.咬，叮 n.一口
 bitter adj.苦的，痛苦的
 bitterly adv.惨痛地，辛酸地
 bitterness n.苦味，苦难
+b/l n.(缩)提单
 black adj.黑的 n.黑色
 blackboard n.黑板
 blacksmith n.铁匠
@@ -224,12 +224,12 @@ bona fide adj.真诚的，无欺的
 bond n.束缚，联结，债券
 bonded adj.保税的
 bone n.骨，骨骼
-bonus n.红利
 bony adj.骨头的
+bonus n.红利
 book n.书 v.预订(票)
-bookcase n.书橱
 booking adj.定货
 booklet n.小册子
+bookcase n.书橱
 bookshelf n.书架
 bookstore n.书店
 boom v.隆隆响，兴旺，繁荣
@@ -287,8 +287,8 @@ breadth n.宽度，大量
 break n.打破，破坏 n.裂口
 breakage n.裂口
 breakdown n.故障，衰竭
-breakfast n.早饭
 breakthrough n.突破
+breakfast n.早饭
 breast n.乳房，胸脯
 breath n.呼吸，气息
 breathe v.呼吸
@@ -329,8 +329,8 @@ brood n.一窝
 brook n.小河，溪流
 broom n.扫帚
 brother n.兄弟，同胞
-brother-in-law n.姻兄(弟)
 brotherhood n.兄弟情谊
+brother-in-law n.姻兄(弟)
 brow n.眉毛，额
 brown n.,adj.褐色(的)
 bruise n.青肿 v.打伤
@@ -392,6 +392,6 @@ buy v.买，购买
 buyer n.购买者
 buzz v.嗡嗡叫 n.嗡嗡声
 by prep.在...旁边，按照
-by-product n.副产品 
 bygone n.已往的，过时的
 bypass n.旁道，分路
+by-product n.副产品 

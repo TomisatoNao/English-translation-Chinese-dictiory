@@ -1,8 +1,5 @@
-a.d. (缩)公元
-a.m. (缩)上午
 abandon v.抛弃，放弃
 abandonment n.放弃
-abasement n.滥用
 abbreviation n.缩写
 abeyance n.缓办，中止
 abide v.遵守
@@ -38,6 +35,7 @@ absurdity n.荒唐(事)
 abundance n.丰富，大量
 abundant adj.丰富的，充裕的
 abuse v.滥用，谩骂
+abasement n.滥用
 academic adj.学院的，学术的
 academy n.学院，研究院
 accede v.同意
@@ -78,9 +76,9 @@ accusation n.控告
 accuse v.告发，指责
 accustom v.使...习惯于
 ache v.觉得疼 n.疼痛
+aching adj.疼痛的
 achieve v.完成，实现
 achievement n.完成，成就
-aching adj.疼痛的
 acid n.酸
 acknowledge v.承认，鸣谢
 acknowledgment n.承认，鸣谢，回执
@@ -105,6 +103,7 @@ actual adj.现实的，实际的
 actuality n.实际
 actually adv.实际上，居然
 acute adj.剧烈的，敏锐的
+a.d. (缩)公元
 ad n.(缩)广告
 adapt v.使适应，改编
 adaptation n.适应
@@ -152,8 +151,8 @@ adversary adj.敌手，对手
 adverse v.逆的，相反的
 adversity n.逆境，不幸
 advertise v.登广告，推销
-advertisement n.广告
 advertising adj.广告的
+advertisement n.广告
 advice n.忠告，意见
 advisable adj.适当的，可行的
 advise v.劝告，通知
@@ -264,6 +263,7 @@ altitude n.高度
 altogether adv.全部地，总共
 aluminum n.铝
 always adv.总是，始终
+a.m. (缩)上午
 amateur adj.业余的
 amaze v.使惊叹
 amazement n.惊奇，诧异
@@ -326,8 +326,8 @@ ant n.蚂蚁
 antagonism n.对立，敌对
 antagonist n.对手，敌手
 antarctic adj.南极的
-antecedent n.触角，天线
 antibiotic adj.抗菌的
+antecedent n.触角，天线
 anticipate v.期望，预料
 anticipation n.期望，预料
 antique adj.古老的 n.古玩
@@ -410,9 +410,9 @@ aristocrat n.贵族
 aristocratic adj.贵族的
 arithmetic n.算术
 arm n.手臂，扶手 v.武装
+arms n.武器
 armchair n.手扶椅
 armour n.盔甲，装甲
-arms n.武器
 army n.军队，陆军
 around adv.在周围，大约
 arouse v.唤醒，唤起

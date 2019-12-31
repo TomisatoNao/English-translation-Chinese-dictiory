@@ -116,9 +116,9 @@ not adv.不
 notable adj.值得注意的
 notably adj.尤其，值得注意地
 note n.笔记，注释，便条
-note-taking n.笔记，笔录
 notebook n.笔记本
 noted adj.著名的
+note-taking n.笔记，笔录
 nothing n.没有东西 adv.毫不
 notice v.留意 n.注意，通知
 noticeable adj.显而易见的
@@ -132,8 +132,8 @@ noun n.名词
 nourish v.养育，提供养分
 nourishment n.食物，补品
 novel adj.新颖的 n.小说
-novelette n.中篇小说
 novelist n.小说家
+novelette n.中篇小说
 novelty n.新奇，新颖
 november n.十一月
 now adv.n.现在 conj.既然

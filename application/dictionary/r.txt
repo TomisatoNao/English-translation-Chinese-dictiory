@@ -126,7 +126,6 @@ recur v.再发生，复发
 recurrence n.再发生
 red adj.红的 n.红色
 redeem v.买回，赎回
-rediculous adj.可笑的，荒谬的
 redound v.增加，促进
 reduce v.减少，贬为
 reduction n.减少，缩减
@@ -295,8 +294,8 @@ resist v.抵抗，忍住
 resistance n.抵抗，阻力，反感
 resistant n.抵抗的，反对的
 resolute adj.坚决的，果断的
-resolutely adj.坚决地，果断地
 resolution n.决议，决定，决心
+resolutely adj.坚决地，果断地
 resolve v.决定，解决，分解
 resort v.诉诸，求助 n.胜地
 resource n.资源，机智，策略
@@ -323,6 +322,7 @@ restrictive n.限制的
 result n.结果，效果，后果
 resultant adj.结果的，合成的
 resume v.继续，再度
+resume n.个人简历，摘要
 retail v.,n.零售
 retailer n.零售商
 retain v.保留，记忆，雇
@@ -364,6 +364,7 @@ riddle n.谜语，谜
 ride v.乘坐，骑 n.乘车
 ridge n.山脉，岭，屋脊
 ridicule n.,v.嘲笑，挖苦
+rediculous adj.可笑的，荒谬的
 rifle n.步枪，来福枪
 right adj.正确的，右的
 righteous adj.正直的，公正的

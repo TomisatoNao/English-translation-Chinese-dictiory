@@ -14,6 +14,7 @@ dancer n.舞蹈者，舞蹈演员
 danger n.危险，威胁
 dangerous adj.有危险的
 danish adj.,n.丹麦人(的)
+denmark n.丹麦
 dare v.敢，挑战，竟敢
 daring adj.大胆的，勇敢的
 dark adj.黑暗的 n.暗处
@@ -54,12 +55,12 @@ decade n.十年
 decay v.,n.腐烂，衰败
 deceased adj.已死的
 deceit n.欺骗，欺诈行为
-deceitful adj.欺骗性的
 deceive v.欺骗
+deception n.欺诈
+deceitful adj.欺骗性的
 december n.十二月
 decency n.体面
 decent adj.体面的，象样的
-deception n.欺诈
 decide v.决定，判决
 decided adj.明确的，果断的
 decidedly adv.明确地，果断的
@@ -114,8 +115,8 @@ defy v.反抗，蔑视，使不能
 degradation n.降低，恶化
 degrade v.败低，下降，堕落
 degree n.程度，度，学位
-del credere n.保付
 delay v.,n.耽搁，延误
+del credere n.保付
 delegate n.代表 n.委派
 delegation n.代表团
 delete v.删除
@@ -147,7 +148,6 @@ demonstration n.示范，表演，示威
 demurrage n.滞期费
 den n.窝
 denial n.拒绝，否定
-denmark n.丹麦
 denominate v.为...命名
 denomination n.命名
 denote v.表示
@@ -272,16 +272,16 @@ digit n.数字
 digital adj.数字的
 dignity n.尊贵，尊严
 dike n.堤
-diligent adj.勤奋的，用功的
 dilute v.稀释
+diligent adj.勤奋的，用功的
 dim adj.暗淡的，模糊的
 dime n.(美元)一角
 dimension n.维，方面，尺寸
 dimensional adj.尺寸的
 diminish v.减少，缩小
 dine v.用餐
-dingy adj.肮脏的
 dining-room n.餐厅
+dingy adj.肮脏的
 dinner n.正餐，晚餐，宴会
 dip v.,n.蘸，浸
 diploma n.毕业文凭，学位证书
@@ -345,8 +345,8 @@ disguise v.,n.伪装，掩饰
 disgust n.厌恶 v.使讨厌
 disgustful adj.令人生厌的
 dish n.盘子，碟子
-dishonor n.耻辱 v.凌辱
 dishonorable adj.不名誉的
+dishonor n.耻辱 v.凌辱
 disillusion v.使觉醒，幻灭
 disinclined adj.不愿意的
 disinfectant n.消毒剂

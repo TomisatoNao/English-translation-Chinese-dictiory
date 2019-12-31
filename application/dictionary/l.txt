@@ -1,10 +1,9 @@
-l/c n.(缩)信用证
 lab n.(缩)实验室
 label n.标签 v.标明
-labor n.劳动，劳动力
-labor-intensive adj.劳动密集型的
 laboratory n.实验室
+labor n.劳动，劳动力
 laborer n.劳工，劳动者
+labor-intensive adj.劳动密集型的
 lace n.花边，鞋带
 lack v.,n.缺少
 lad n.少年，小伙子
@@ -58,6 +57,7 @@ layer n.层，层次
 layout n.设计，规划，图案
 laziness n.懒惰
 lazy adj.懒惰的
+l/c n.(缩)信用证
 lead v.引导，领先，率领
 leader n.领导，领袖
 leadership n.领导
@@ -204,10 +204,10 @@ loneliness n.孤独，寂寞
 lonely adj.孤独的，寂寞的
 lonesome adj.寂寞的
 long adj.长的 adv.长久
-long-term adj.长期的
 longevity n.长寿
 longing n.渴望，思慕
 longitude n.经度，经线
+long-term adj.长期的
 look v.看，看上去 n.外表
 loom v.隐隐出现 n.织布机
 loop n.环，回路 v.环绕

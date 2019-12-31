@@ -1,5 +1,3 @@
-o'clock adv.点钟
-o.k. adj.,n.(缩)对，行
 oak n.橡树，栎树
 oar n.橹，桨
 oath n.誓言，誓约
@@ -37,18 +35,19 @@ occurrence n.发生，出现，事件
 ocean n.海洋，大洋
 oceania n.大洋洲
 oceanography n.海洋学
+o'clock adv.点钟
 october n.十月
 odd adj.古怪的，奇数的
 odour n.气味
 of prep..的(表示领属等)
 off adv....去 prep.离开
 off-duty adj.不当班的
-off-grade adj.等外的，质差的
 offence n.过错，冒犯，攻击
 offend v.冒犯，得罪
 offensive adj.冒犯的，攻击的
 offer v.,n.提供，报盘
 offering n.报盘，提供的货物
+off-grade adj.等外的，质差的
 office n.办公室，事务所
 officer n.军官，警官，官员
 official n.官员 adj.官方的
@@ -57,6 +56,7 @@ offspring n.子女，子孙
 often adv.经常，常常
 oh int.哦，嗬
 oil n.油，石油
+o.k. adj.,n.(缩)对，行
 old adj.老的，...岁的
 olive n.橄榄(树)
 omen n.前兆

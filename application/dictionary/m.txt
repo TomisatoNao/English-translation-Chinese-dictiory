@@ -31,12 +31,12 @@ majesty n.陛下，雄伟，庄严
 major adj.主要的，多数的
 majority n.多数，过半数
 make v.做，制造 n.种类
+maker n.制造者，制造商
 make-shift adj.临时的n.权宜之计
 make-up n.气质，化妆品
-maker n.制造者，制造商
 malady n.病
-malaise n.马来西亚
 malaria n.疟疾
+malaise n.马来西亚
 malaysia n.马来西亚
 male adj.男性的，雄的
 malice n.恶意，恶感
@@ -66,6 +66,7 @@ map n.地图 v.筹划
 maple n.枫树
 marble n.大理石，弹子
 march n.三月
+march n.,v.行进，行军
 margin n.余地，边缘
 marginal adj.边缘的，边际的
 marine adj.海的，海生的
@@ -94,6 +95,7 @@ mass n.堆，大量，群众
 massacre n.,v.屠杀，残杀
 massage n.按摩，推拿
 massive adj.粗大的，厚重的
+mass media n.传媒工具，新闻界
 mast n.桅杆
 master n.主人，大师，硕士
 masterpiece n.杰作
@@ -104,8 +106,8 @@ material n.材料，资料，原料
 materialism n.唯物主义
 materialize v.使具体化，物质化
 mathematical adj.数学的
-mathematician n.数字家
 mathematics n.数学
+mathematician n.数字家
 maths n.(缩)数学
 matinee n.日场演出
 matter n.事情，物资，毛病
@@ -115,6 +117,7 @@ maturity n.成熟，到期
 maximize v.增加到最大程度
 maximum n.最大量，极限
 may n.五月
+may v.可以，也许，祝愿
 maybe adv.或许，大概
 mayor n.市长
 me pron.我(宾格)
@@ -161,11 +164,12 @@ mental adj.心理的，精神的
 mentality n.心理，意识
 mention v.,n.提及，讲到
 menu n.菜单
-mercantile n.商品
 merchandise n.商品，货物
 merchant n.商人 adj.商业的
+mercantile n.商品
 merciful adj.仁慈的，宽大的
 mercury n.水星
+mercury n.汞，水银
 mercy n.宽大，慈悲，怜悯
 mere adj.仅仅的，起码的
 merely adv.仅仅，只
@@ -372,14 +376,14 @@ muffle v.裹住，捂住
 muffler n.围巾，消音器
 mug n.(有柄)大杯
 mule n.骡子
-multifunction n.多功能的
 multiple adj.复合的，多次方的
 multiplication n.乘法，增加
 multiply v.乘，增加，繁殖
+multifunction n.多功能的
 multitude n.大批，大群
+municipal adj.市的，市政的
 mumble v.咕哝，嘟囔
 mumps n.腮腺炎
-municipal adj.市的，市政的
 murder v.,n.谋杀(案)
 murderer n.凶手，杀人犯
 murmur v.低声说

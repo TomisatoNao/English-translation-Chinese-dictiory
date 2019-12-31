@@ -76,8 +76,8 @@ globalize v.使...全球化
 globe n.地球，球体，地球仪
 gloom n.黑暗，忧郁
 gloomy adj.阴沉的，忧郁的
-glorify v.颂扬，赞美
 glorious adj.光荣的，辉煌的
+glorify v.颂扬，赞美
 glory n.光荣，壮丽，荣誉
 glossary n.词汇表
 glove n.手套
@@ -98,8 +98,8 @@ good adj.好的，善良的
 good-bye int.再见
 good-looking adj.好看的
 goodness n.优良，天哪
-goods n.货物，商品
 goodself n.你方
+goods n.货物，商品
 goodwill n.商誉
 goose n.鹅
 gorge n.咽喉，峡谷，山口
@@ -107,8 +107,8 @@ gorgeous adj.绚丽的，了不起的
 gorilla n.大猩猩
 gossip n.闲谈，聊天
 govern v.统制，支配，决定
-governess n.女家庭教师
 government n.编制，政体，政府
+governess n.女家庭教师
 governor n.州长，总督
 gown n.长袍，法衣
 grab v.抓住，攫取
@@ -206,5 +206,5 @@ gust n.一阵(大风)
 gutter n.街沟
 guy n.家伙
 gymnasium n.体育馆，健身房
-gymnast n.体操运动员
 gymnastics n.体操
+gymnast n.体操运动员

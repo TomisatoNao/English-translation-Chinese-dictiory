@@ -27,8 +27,8 @@ handicapped adj.有残疾的
 handkerchief n.手帕，手绢
 handle v.处理，对待 n.把
 handling n.处理，管理
-handout n.分发物(印刷品等)
 handsome adj.漂亮的，得体
+handout n.分发物(印刷品等)
 handwriting n.手写，书法，笔迹
 handy adj.方便的，近便的
 hang v.挂，垂，绞死
@@ -41,12 +41,12 @@ happiness n.幸福
 happy adj.高兴的，幸运的
 harbor n.港口，停泊处
 hard adj.硬的 adv.努力
-hard-working adj.勤劳的
 harden v.硬化，变硬
 hardly adv.刚刚，几乎不
 hardness n.坚硬，硬度
 hardship n.困苦，艰难
 hardware n.硬件
+hard-working adj.勤劳的
 hardy adj.耐劳的，耐寒的
 hare n.野兔
 harm n.,v.损害，伤害
@@ -154,10 +154,10 @@ him pron.他(宾格)
 himself pron.他自己
 hind adj.后面的，后部的
 hinder v.妨碍，阻止
+hinterland n.内地
 hindrance n.障碍(物)
 hinge n.合页，绞链
 hint n.暗示，迹象 v.暗示
-hinterland n.内地
 hip n.臀部
 hire v.租，雇佣
 his pron.他的
@@ -174,9 +174,9 @@ hobby n.嗜好，业余爱好
 hoe n.锄头 v.锄
 hoist v.升起，扯起
 hold v.握住，容纳 n.控制
-hold-up n.停顿，耽误
 holder n.持有人，支架
 holding n.支持，控股
+hold-up n.停顿，耽误
 hole n.洞，孔穴
 holiday n.节日，假日
 hollow adj.空心的，凹陷的
@@ -208,8 +208,8 @@ horror n.恐惧，恐怖
 horse n.马
 horsepower n.马力
 hose n.软水管，长统袜
-hospitable adj.好客的
 hospital n.医院
+hospitable adj.好客的
 hospitality n.好客，款待
 host n.一大群，男主人
 hostage n.人质
@@ -220,8 +220,8 @@ hot adj.热的，辣的
 hotdog n.热狗(面包)
 hotel n.旅馆
 hotelling n.旅馆业
-hound n.猎狗 v.追逐
 hour n.小时，点钟
+hound n.猎狗 v.追逐
 house n.房子，剧场，家
 household n.户 adj.家庭的
 housekeeper n.看门人，保姆

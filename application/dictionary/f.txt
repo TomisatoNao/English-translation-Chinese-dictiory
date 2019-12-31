@@ -26,8 +26,8 @@ fake adj.冒片的 n.冒牌货
 fall v.落下，跌倒 n.瀑布
 false adj.假的，假造的
 fame n.名声，声誉
-familiar adj.熟悉的，亲近的
 familiarity n.熟悉，相似
+familiar adj.熟悉的，亲近的
 family n.家庭，家属
 famine n.饥荒，饥饿
 famous adj.著名的
@@ -219,9 +219,9 @@ fold v.折叠 n.折痕
 foliage n.叶子(总称)
 folk n.人们，乡亲，亲属
 follow v.跟随，听懂，遵循
-follow-up n.,adj.后续(的)
 follower n.追随者，信徒
 following adj.下列的，其次的
+follow-up n.,adj.后续(的)
 fond adj.喜爱..的，慈爱的
 food n.食物，食粮
 foodstuff n.食品

@@ -1,4 +1,3 @@
-s. s. n.(缩)轮船
 sack n.麻袋 v.解雇
 sacred adj.神圣的
 sacrifice n.,v.牺牲(品)
@@ -16,9 +15,9 @@ sailing adj.启航的 n.航行
 sailor n.水手，海员
 saint n.圣人，圣徒
 sake n.缘故，利益
+salad n.色拉，拌凉菜
 salability n.适销性
 salable adj.有销路的，适销的
-salad n.色拉，拌凉菜
 salary n.工资，薪水
 sale n.出售，贱卖
 sales n.销售 adj.出售的
@@ -91,9 +90,9 @@ score n.得分，成绩，二十
 scorn n.,v.蔑视，不屑
 scornful adj.蔑视的，轻视的
 scotch n.苏格兰
-scotland n.苏格兰
 scotsman n.苏格兰人
 scottish adj.苏格兰的
+scotland n.苏格兰
 scout n.侦察员，童子军
 scramble v.爬，攀，争夺
 scrap n.碎片，废品，屑
@@ -147,8 +146,8 @@ self n.自己，自身，品质
 selfish adj.自私的，利己的
 sell v.卖，出售
 seller n.卖方
-semiconductor n.半导体
 seminar n.研讨会，学术讲座
+semiconductor n.半导体
 senate n.参议院
 senator n.参议员
 send v.派遣，送，寄出，请
@@ -256,7 +255,6 @@ shopkeeper n.店主
 shopping n.购物
 shore n.岸，滨
 short adj.短的，矮的
-short-weight n.短装，短重
 shortage n.缺少，不足
 shortcoming n.短处，缺点
 shortcut n.捷径
@@ -264,6 +262,7 @@ shorten v.缩短
 shorthand n.速记
 shortly adv.立刻，不久
 shorts n.短裤
+short-weight n.短装，短重
 shot n.射击，弹丸
 should v.应该，会
 shoulder n.肩膀
@@ -276,8 +275,8 @@ showroom n.展室，陈列室
 shrewd adj.机敏的，精明的
 shriek v.,n.尖叫(声)
 shrill v.刺耳的 v.尖叫
-shrimp n.虾
 shrine n.神龛
+shrimp n.虾
 shrink v.收缩，畏缩
 shroud n.遮蔽物
 shrub n.灌木
@@ -289,8 +288,8 @@ shutter n.百叶窗，快门
 shuttle n.梭 v.穿梭
 shy adj.害羞的，腼腆的
 sick adj.有病的，厌恶的
-sickle n.镰刀
 sickness n.病
+sickle n.镰刀
 side n.边，面，侧面，一方
 sidewalk n.人行道
 sideways adv.侧面地
@@ -431,12 +430,12 @@ snowman n.雪人
 snowstorm n.暴风雪
 snowy adj.有雪的，下雪的
 so adv.这样，也一样
-so-called adj.所谓的
 soak v.浸，吸水，湿透
 soap n.肥皂
 soar v.急速上升，暴涨
 sob v.,n.呜咽，啜泣
 sober adj.清醒的，冷静的
+so-called adj.所谓的
 soccer n.足球
 sociable adj.善交际的，社交的
 social adj.社会的，社会性的
@@ -480,8 +479,8 @@ sometimes adv.有时，不时
 somewhat adv.稍微，有点
 somewhere adv.某地，到某处
 son n.儿子
-son-in-law n.女婿
 song n.歌，歌词，鸟鸣
+son-in-law n.女婿
 sonnet n.十四行诗
 sonyericsson n.索尼愛立信通訊手機公司
 soon adv.不久，很快，早
@@ -588,6 +587,7 @@ square n.正方形，广场，平方
 squash v.压碎 n.果子汁
 squat v.蹲
 squeeze v.压，榨，挤
+s. s. n.(缩)轮船
 squirrel n.松鼠
 stab v.,n.刺，戳
 stability n.稳定性
@@ -688,8 +688,8 @@ stove n.炉子，火炉
 stow v.装载，理舱
 stowage n.装载
 straight adj.直的 adv.笔直地
-straighten v.弄直
 straightforward adj.直爽的
+straighten v.弄直
 strain v.拉紧，扭伤，使紧张
 strait n.海峡
 strand n.(绳)股，缕
@@ -724,9 +724,8 @@ stroke n.敲，笔划 v.抚摸
 stroll v.,n.散步，闲逛
 stroller n.散步者
 strong adj.强壮的，强烈的
-stronghold n.堡垒，要塞
 strongly adv.强烈地，强有力地
-struct 结构
+stronghold n.堡垒，要塞
 structural adj.结构的，组织上的
 structure n.结构，构造，组织
 struggle v.,n.斗争，奋斗

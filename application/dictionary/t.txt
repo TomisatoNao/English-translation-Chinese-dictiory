@@ -27,8 +27,8 @@ tape n.条，带，磁带
 tape-recorder n.录音机
 tape-recording n.录音
 tar n.沥青，柏油
-tare n.皮重
 target n.目标，对象，靶
+tare n.皮重
 tariff n.关税
 task n.工作，任务
 taste n.味道，趣味 v.品尝
@@ -62,12 +62,12 @@ television n.电视，电视机
 telex n.电传 v.发电传
 tell v.告诉，讲，说出
 teller n.出纳
-tempatation n.诱惑，引诱
 temper n.情绪，脾气
 temperature n.温度，体温
 temple n.庙，寺院，太阳穴
 temporary adj.暂时的，临时的
 tempt v.引诱，诱惑
+tempatation n.诱惑，引诱
 ten num.十
 tenant n.房客，承租人
 tend v.趋向，照料，投标
@@ -141,8 +141,8 @@ thigh n.大腿
 thin adj.薄的，瘦的
 thing n.东西，事情
 think v.想，相信，认为
-thinker n.思想家
 thinking n.思想
+thinker n.思想家
 third num.第三，三分之一
 thirst n.渴，渴望
 thirsty adj.渴的，渴望的
@@ -268,8 +268,8 @@ trace n.痕迹，微量 v.追踪
 track n.径赛，轨道，路径
 tractor n.拖拉机
 trade n.贸易，交换 v.经商
-trademark n.商标
 trader n.商人
+trademark n.商标
 tradesman n.商人
 tradition n.传统，惯例
 traditional adj.传统的
@@ -288,12 +288,12 @@ trample v.践踏，蹂躏
 tranquil adj.平静的，安宁的
 transact v.交易
 transaction n.交易
-transcient adj.短暂的，瞬时的
 transfer v.转移，转让
 transferable adj.可转让的
 transform v.转变，转化
 transformation n.转化，转变
 transformer n.变压器
+transcient adj.短暂的，瞬时的
 transistor n.晶体管(收音机)
 transit v.运输，转运
 transition n.过渡，转变
@@ -310,9 +310,9 @@ transship v.转运，转船
 transshipment n.转运
 transverse adj.横向的，横断的
 trap n.陷井，圈套 v.诱捕
+traverse n.,v.横断，横过
 travel v.旅行，传导
 traveler n.旅行者
-traverse n.,v.横断，横过
 tray n.托盘
 tread v.踩，践踏
 treason n.谋反，叛国

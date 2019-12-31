@@ -1,4 +1,3 @@
-p.m. (缩)下午
 pace n.步，速度，步调
 pacific n.太平洋
 pack v.包装，挤满 n.背包
@@ -55,7 +54,6 @@ parlimental adj.国会的，议会的
 parlor n.客厅
 parrot n.鹦鹉
 part n.部分，零件，角色
-part-time adj.计时(干活)的
 partial adj.局部的，偏颇的
 partially adv.局部地，部分地
 participant n.参加者，参与者
@@ -68,6 +66,7 @@ partition v.,n.划分，隔开
 partly adv.部分地
 partner n.伙伴，合伙人，搭档
 partnership n.伙伴关系，合伙
+part-time adj.计时(干活)的
 party n.聚会，政党，一方
 pass v.经过，传给 n.关口
 passable adj.过得去的
@@ -170,8 +169,8 @@ perpetual adj.永久的，永恒的
 perplex v.迷惑，难住
 persecute v.迫害
 persecution n.迫害
-perseverance n.坚持
 persevere v.坚持
+perseverance n.坚持
 persist v.坚持，固执，持续
 persistence n.坚持，持续
 person n.人，人称，身体
@@ -300,6 +299,7 @@ plunge v.插进，跳入
 plural adj.复数的
 plus prep.加 n.加号，正号
 ply v.出力，努力从事
+p.m. (缩)下午
 pneumatic adj.气体的，空气的
 pneumonia n.风湿病
 pocket n.衣袋 adj.袖珍的
@@ -364,12 +364,12 @@ possibility n.可能性
 possible adj.可能的
 possibly adv.可能，或许
 post n.柱，职位 v.邮寄
-post-office n.邮局
 postage n.邮资
 postal adj.邮政的
 postcard n.明信片
 posterity n.子孙，后代
 postman n.邮递员
+post-office n.邮局
 postpone v.推迟，延迟
 postponement n.推迟
 postulate v.假定，主张
