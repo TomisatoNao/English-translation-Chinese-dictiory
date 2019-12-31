@@ -24,7 +24,7 @@ public:
 
     QString Find(string englishValue) override;          //重写查找函数
 
-    void Delete(string englishValue) override;          //重写删除函数
+    bool Delete(string englishValue) override;          //重写删除函数
 
 private:
 

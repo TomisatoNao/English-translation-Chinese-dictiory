@@ -164,8 +164,7 @@ engine n.发动机，火车头
 engineer n.工程师
 engineering n.工程
 england n.英格兰，英国
-english n.,adj.英国的，英语
-englishman n.英国人
+englishman n.,adj.英国的，英语
 engrave v.刻上，牢记
 engraving adj.雕刻
 engulf v.吞没

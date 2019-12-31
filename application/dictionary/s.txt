@@ -726,6 +726,7 @@ stroller n.散步者
 strong adj.强壮的，强烈的
 stronghold n.堡垒，要塞
 strongly adv.强烈地，强有力地
+struct 结构
 structural adj.结构的，组织上的
 structure n.结构，构造，组织
 struggle v.,n.斗争，奋斗

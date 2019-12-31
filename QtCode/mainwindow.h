@@ -18,7 +18,6 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    BasicSearchTree *tree;
-    void find();
+    BasicSearchTree *b;
 };
 #endif // MAINWINDOW_H

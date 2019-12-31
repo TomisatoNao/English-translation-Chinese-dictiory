@@ -63,9 +63,14 @@ RedBlackTree::~RedBlackTree() {
                     myFile.close();
                     fileName[11]=insertEnglishValue[0];
                     myFile.open(fileName);
-                    myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                    if (myFile.is_open()) {
+                        myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                    }
+
                 } else {
-                    myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                    if (myFile.is_open()) {
+                        myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                    }
                 }
             }
             ms.Pop();
@@ -167,11 +172,11 @@ void RedBlackTree::InsertCase(Node *p) {
 }
 
 
-void RedBlackTree::Delete(string englishValue) {
+bool RedBlackTree::Delete(string englishValue) {
     if (root == nullptr) {
-        return;
+        return false;
     }
-    Delete(root, englishValue);
+    return Delete(root, englishValue);
 }
 
 bool RedBlackTree::Delete(Node* p, string englishValue) {

@@ -15,13 +15,13 @@ MainWindow::MainWindow(QWidget *parent)
     ui->englishvalue->setPlaceholderText("英文输入");
     ui->datastruct->setAlignment(Qt::AlignCenter);
     ui->datastruct->setText("当前数据结构：红黑树");
-    tree = new RedBlackTree;
+    b = new RedBlackTree;
 
     connect(ui->find, &QPushButton::pressed, this, [=](){
         if (QString::compare(ui->englishvalue->text(), "") == 0) {
             QMessageBox::warning(this,"错误","文本框为空",QMessageBox::Ok);
         } else {
-            ui->chinesevalue->setText(tree->Find(ui->englishvalue->text().toStdString()));
+            ui->chinesevalue->setText(b->Find(ui->englishvalue->text().toStdString()));
             if (QString::compare(ui->chinesevalue->text(), "") == 0) {
                 QMessageBox::warning(this, "提示", "未查到该单词，请输入其词性与汉语意思进行插入",QMessageBox::Ok);
             }
@@ -35,7 +35,7 @@ MainWindow::MainWindow(QWidget *parent)
             if (QString::compare(ui->chinesevalue->text(), "")==0) {
                 QMessageBox::warning(this,"错误","删除单词不存在",QMessageBox::Ok);
             } else {
-                tree->Delete(ui->englishvalue->text().toStdString());
+                b->Delete(ui->englishvalue->text().toStdString());
                 ui->chinesevalue->setText("");
             }
         }
@@ -45,32 +45,32 @@ MainWindow::MainWindow(QWidget *parent)
         if (QString::compare(ui->englishvalue->text(), "") == 0 || QString::compare(ui->chinesevalue->text(), "")==0) {
             QMessageBox::warning(this,"错误","文本框为空",QMessageBox::Ok);
         } else {
-            if (!tree->Insert(ui->englishvalue->text().toStdString(),ui->chinesevalue->text().toLocal8Bit().toStdString())) {
+            if (!b->Insert(ui->englishvalue->text().toStdString(),ui->chinesevalue->text().toLocal8Bit().toStdString())) {
                 QMessageBox::warning(this,"错误","该单词以存在",QMessageBox::Ok);
             }
         }
     });
 
     connect(ui->change, &QPushButton::pressed, this, [&]() {
-        delete tree;
+        delete b;
         if(changeFlag%2==0) {
-            tree = new BinarySearchTree;
+            b = new BinarySearchTree;
             ui->datastruct->setText("当前数据结构：二叉搜索树");
             changeFlag++;
         } else {
-            tree = new RedBlackTree;
+            b = new RedBlackTree;
             ui->datastruct->setText("当前数据结构：红黑树");
             changeFlag++;
         }
     });
 
     connect(ui->englishvalue, &QLineEdit::textChanged, this, [=] () {
-        ui->chinesevalue->setText(tree->Find(ui->englishvalue->text().toStdString()));
+        ui->chinesevalue->setText(b->Find(ui->englishvalue->text().toStdString()));
     });
 }
 
 MainWindow::~MainWindow()
 {
-    delete tree;
+    delete b;
 }
 

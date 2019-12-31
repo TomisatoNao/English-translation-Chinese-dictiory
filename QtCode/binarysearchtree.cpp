@@ -59,9 +59,13 @@ BinarySearchTree::~BinarySearchTree()
                     myFile.close();
                     fileName[11]=insertEnglishValue[0];
                     myFile.open(fileName);
-                    myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                    if (myFile.is_open()) {
+                        myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                    }
                 } else {
-                    myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                    if (myFile.is_open()) {
+                        myFile << insertEnglishValue << " " << insertChineseValue << endl;
+                    }
                 }
             }
             ms.Pop();
@@ -127,9 +131,10 @@ QString BinarySearchTree::Find(string englishValue) {
     return "";
 }
 
-void BinarySearchTree::Delete(string englishValue) {
+bool BinarySearchTree::Delete(string englishValue) {
+
     if (root == nullptr) {
-        return;
+        return false;
     }
 
     BinarySearchTreeNode* current = root;
@@ -150,12 +155,12 @@ void BinarySearchTree::Delete(string englishValue) {
                         current->parent->rightTree = current->leftTree;
                     }
                 }
-                
+
                 if (current->leftTree!=nullptr) {
                     current->leftTree->parent = current->parent;
                 }
                 delete current;
-                return;
+                return true;
             } else {
                 BinarySearchTreeNode* smallest = getSmallestChildren(current->rightTree); //smallest最少也是改节点的右子树
                 current->englishValue = smallest->englishValue;
@@ -170,10 +175,11 @@ void BinarySearchTree::Delete(string englishValue) {
                     smallest->rightTree->parent=smallest->parent;  //更新父节点
                 }
                 delete smallest;
-                return;
+                return true;
             }
         }
     }
+    return false;
 }
 
 BinarySearchTreeNode*  BinarySearchTree::getSmallestChildren(BinarySearchTreeNode *p) {

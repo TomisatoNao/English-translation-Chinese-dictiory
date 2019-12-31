@@ -48,7 +48,7 @@ public:
 
     bool Insert(string englishValue, string chineseValue) override;   //插入操作
 
-    void Delete(string englishValue) override;    //删除操作
+    bool Delete(string englishValue) override;    //删除操作
 
     QString Find(string englishValue) override;       //查找操作
 
