@@ -40,12 +40,7 @@ private:
 
     void DeleteOneChild(Node *p);    //删除节点
 
-
     void DeleteCase(Node *p);     //对删除节点进行分析，维护红黑树的性质
-
-    void DeStruct(Node *p);     //析构函数调用
-
-
 public:
     RedBlackTree();             //构造函数
 
@@ -55,10 +50,7 @@ public:
 
     void Delete(string englishValue) override;    //删除操作
 
-    void Floororder();                    //层序遍历
-
     QString Find(string englishValue) override;       //查找操作
-
 
 private:
 
